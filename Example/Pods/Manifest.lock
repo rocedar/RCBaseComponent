@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - MJExtension (3.0.15.1)
-  - RCBaseComponent (0.1.0):
+  - RCBaseComponent (0.1.9):
     - AFNetworking
     - MJExtension
     - SVProgressHUD
@@ -37,7 +37,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
-  RCBaseComponent: d6b44697698a6b40316df50661560f326cfa2050
+  RCBaseComponent: 7289febe398621830861fadb4cbbc3d48e599c74
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: d34409431be627ad499ceaab58f2c49cf40f1853
