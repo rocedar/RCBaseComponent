@@ -1,0 +1,40 @@
+{
+  "name": "RCBaseComponent",
+  "version": "0.1.0",
+  "summary": "RCBaseComponent",
+  "homepage": "https://github.com/rocedar/RCBaseComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wutengwei": "wutengwei@rocedar.com"
+  },
+  "source": {
+    "git": "https://github.com/rocedar/RCBaseComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": "RCBaseComponent/Classes/RCBaseComponent.bundle",
+  "ios": {
+    "vendored_frameworks": "RCBaseComponent/Classes/RCBaseComponent.framework"
+  },
+  "frameworks": [
+    "UIKit",
+    "WebKit",
+    "CoreTelephony"
+  ],
+  "dependencies": {
+    "MJExtension": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "AFNetworking": [
+
+    ]
+  }
+}

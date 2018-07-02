@@ -7,6 +7,7 @@
 //
 
 #import "RCViewController.h"
+#import <RCBaseComponent/RCBaseComponent.h>
 
 @interface RCViewController ()
 
@@ -18,6 +19,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [RCHTTPSessionManager GETWithPath:@"/p/device/mine/app/"
+                           parameters:nil
+                 appendBaseParameters:YES
+                                 sign:YES
+                             printLog:YES
+                              success:^(NSURLSessionDataTask *task, id responseObject) {
+                                  
+                              } failure:^(NSURLSessionDataTask *task, NSError *error) {
+                                  
+                              }];
 }
 
 - (void)didReceiveMemoryWarning
