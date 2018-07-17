@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'RCBaseComponent'
-    s.version          = '0.2.2'
+    s.version          = '0.2.3'
     s.summary          = 'RCBaseComponent'
     
     s.homepage         = 'https://github.com/rocedar/RCBaseComponent'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     
     s.resource = 'RCBaseComponent/Classes/RCBaseComponent.bundle'
-    s.ios.vendored_frameworks = 'RCBaseComponent/Classes/RCBaseComponent.framework'
+    s.ios.vendored_frameworks = 'RCBaseComponent/Classes/*.framework'
     
     s.frameworks = 'UIKit','WebKit','CoreTelephony'
     

@@ -23,7 +23,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [RCHTTPSessionManager GETWithPath:@"/p/device/mine/app/"
-                           parameters:nil
+                           parameters:@{}
                  appendBaseParameters:YES
                                  sign:YES
                              printLog:YES

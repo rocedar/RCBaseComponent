@@ -19,7 +19,7 @@
   },
   "resources": "RCBaseComponent/Classes/RCBaseComponent.bundle",
   "ios": {
-    "vendored_frameworks": "RCBaseComponent/Classes/RCBaseComponent.framework"
+    "vendored_frameworks": "RCBaseComponent/Classes/*.framework"
   },
   "frameworks": [
     "UIKit",

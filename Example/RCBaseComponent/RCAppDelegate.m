@@ -7,12 +7,21 @@
 //
 
 #import "RCAppDelegate.h"
+#import <RCBaseComponent/RCSDK.h>
+#import <RCBaseComponent/RCBaseComponent.h>
 
 @implementation RCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //    [RCSDK setDebug:YES];
+    [[RCSDK shareSDK] initWithAppid:@"101"
+                             appkey:@"5e7545427d72c391"
+                              token:@"a0c3e71f51301264dc67f20e8a59c9f3"
+                     invalidHandler:^(RCErrorCode errorCode) {
+                         //更新token
+                         //[RCSDK setToken:@"7d1159efcdaa7aba02c16f01b851867c"];
+                     }];
     return YES;
 }
 
