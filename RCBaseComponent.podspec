@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'RCBaseComponent'
-    s.version          = '0.2.4'
+    s.version          = '0.2.5'
     s.summary          = 'RCBaseComponent'
     
     s.homepage         = 'https://github.com/rocedar/RCBaseComponent'
