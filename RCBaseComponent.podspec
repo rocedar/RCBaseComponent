@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'RCBaseComponent'
-    s.version          = '0.2.6'
+    s.version          = '0.2.7'
     s.summary          = 'RCBaseComponent'
     
     s.homepage         = 'https://github.com/rocedar/RCBaseComponent'
@@ -19,6 +19,11 @@ Pod::Spec.new do |s|
     s.dependency 'MJExtension'
     s.dependency 'SVProgressHUD'
     s.dependency 'AFNetworking'
+    s.dependency 'Masonry'
+    s.dependency 'SDWebImage'
+    s.dependency 'IQKeyboardManager'
+    s.dependency 'MJRefresh'
+    s.dependency 'CYLTableViewPlaceHolder'
 end
 
 

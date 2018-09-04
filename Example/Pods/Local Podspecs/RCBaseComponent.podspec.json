@@ -1,6 +1,6 @@
 {
   "name": "RCBaseComponent",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "summary": "RCBaseComponent",
   "homepage": "https://github.com/rocedar/RCBaseComponent",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/rocedar/RCBaseComponent.git",
-    "tag": "0.2.6"
+    "tag": "0.2.7"
   },
   "platforms": {
     "ios": "8.0"
@@ -34,6 +34,21 @@
 
     ],
     "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "CYLTableViewPlaceHolder": [
 
     ]
   }
