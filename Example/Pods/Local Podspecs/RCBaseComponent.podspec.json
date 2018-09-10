@@ -1,6 +1,6 @@
 {
   "name": "RCBaseComponent",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "summary": "RCBaseComponent",
   "homepage": "https://github.com/rocedar/RCBaseComponent",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/rocedar/RCBaseComponent.git",
-    "tag": "0.2.7"
+    "tag": "0.2.8"
   },
   "platforms": {
     "ios": "8.0"
