@@ -43,7 +43,7 @@ UIKIT_EXTERN NSString *const RCDEFAULT_PASSCODE;
 
 //设备类型判断
 #define UI_IS_IPHONE    ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
-#define UI_IS_IPHONEX   (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812.0)
+#define UI_IS_IPHONEX   (UI_IS_IPHONE && ([[UIScreen mainScreen] bounds].size.height == 812.0 || [[UIScreen mainScreen] bounds].size.height == 896.0 ))
 
 #define KStatusBar_HEIGHT (UI_IS_IPHONEX ? 44 : 20)
 #define KNavBar_HEIGHT (UI_IS_IPHONEX ? 88 : 64)

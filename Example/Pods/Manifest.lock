@@ -19,7 +19,7 @@ PODS:
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.7)
-  - RCBaseComponent (0.2.9):
+  - RCBaseComponent (0.3.0):
     - AFNetworking
     - CYLTableViewPlaceHolder
     - IQKeyboardManager
@@ -58,7 +58,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
-  RCBaseComponent: d1dbbe11c3c6fc061b377ed56c5a7b990860c488
+  RCBaseComponent: b70d9fd5440b394cb5bab9d8ee5cd4e7027ffec4
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
